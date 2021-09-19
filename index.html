@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circular Chart</title>
+  <!-- add CSS -->
+  <link rel="stylesheet" href="circular.css">
+  <style>
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="circular" data-angle="50" data-color="gold"></div>
+    <div class="circular" data-angle="30" data-color="green"></div>
+    <div class="circular" data-angle="90" data-color="red"></div>
+  </section>
+
+  <!-- add plug-in -->
+  <script src="circular.js"></script>
+
+  <!-- run -->
+  <script>
+    const circular = new Circular();
+    circular.draw();
+  </script>
+
+</body>
+</html>
