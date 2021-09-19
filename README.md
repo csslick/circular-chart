@@ -1,5 +1,7 @@
 # circular-chart
-circular chart
+demo: https://csslick.github.io/circular-chart/   
+
+How to
 ```
 <head>
   ...
